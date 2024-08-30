@@ -44,28 +44,28 @@ datosArreglo();
 
 
 
-const prompt= require (`prompt-sync`)();
-let objetos =[];
+const prompt = require(`prompt-sync`)();
+let objetos = [];
 
 const datosArreglo = () => {
-    const cantidad=parseInt(prompt("¿cuantos objetos desea ingresar ahora?"), 10);
+    const cantidad = parseInt(prompt("¿cuantos objetos desea ingresar ahora?"), 10);
 
-    for (let i=0; i<cantidad;i ++){
-console.log(`ingresa los datos para el objeto ${i + 1}:`);
-const nombre = prompt("nombre: ");
-const apellido = prompt("apellido: ");
-const edad = parseInt(prompt("edad: "));
+    for (let i = 0; i < cantidad; i++) {
+        console.log(`ingresa los datos para el objeto ${i + 1}:`);
+        const nombre = prompt("nombre: ");
+        const apellido = prompt("apellido: ");
+        const edad = parseInt(prompt("edad: "));
 
-const objeto = {
-    nombre: nombre,
-    apellido: apellido,
-    edad: edad,
-};
-objetos.push(objeto);
+        const objeto = {
+            nombre: nombre,
+            apellido: apellido,
+            edad: edad,
+        };
+        objetos.push(objeto);
     }
     console.log("objetos ingresados en el arreglo");
-    objetos.forEach((objeto,index) => {
+    objetos.forEach((objeto, index) => {
         console.log(`${index + 1}. nombre: ${objeto.nombre},apellido: ${objeto.apellido}, edad: ${objeto.edad}`);
-    });   
+    });
 }
 datosArreglo();
