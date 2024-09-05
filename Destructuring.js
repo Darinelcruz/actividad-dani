@@ -33,7 +33,7 @@ let{nombre:name}=persona;
 //-no relacionales
 
 const persona={
-    clave:"123"
+    clave:"123",
     nombre:null,
     edad:null,
     sexo:null,
