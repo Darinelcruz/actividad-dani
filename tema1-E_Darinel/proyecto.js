@@ -183,4 +183,8 @@ pelicula.registrarPelis();
 pelicula.consultarPelis();
 pelicula.registrarPelis();
 pelicula.eliminarpeli();
-
+let starfall=new cine ();
+starfall.consultarPelis();
+let titulo= prompt("ingresa el titulo de la pelicula a rentar: ")
+let verificar=pelicula
+starfall.rentarPelicula(titulo,verificar)
