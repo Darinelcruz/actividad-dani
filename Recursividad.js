@@ -48,7 +48,7 @@ fibionaceRecursivo(6);
  */
 
 
-
+/* 
 function fibo(n) {
     if (n < 2) return n
     return fibo(n - 1) + fibo(n - 2);
@@ -62,4 +62,9 @@ function generarFibonacci(n) {
     console.log(resultado);
     return resultado;
 }
-generarFibonacci(6);
+generarFibonacci(6); */
+
+datos["dany", "jose"]
+function mostrar(){
+    console.log(datos);   
+}
