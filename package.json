@@ -1,0 +1,17 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "servidor para la prueba de formulario",
+  "main": "01-repaso.js",
+  "scripts": {
+    "test": "npm start, npm i cors"
+  },
+  "keywords": [
+    "cors",
+    "express",
+    "nodemon",
+    "parserJson"
+  ],
+  "author": "Dari",
+  "license": "ISC"
+}
